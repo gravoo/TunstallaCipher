@@ -1,0 +1,8 @@
+1.Wczytujemy plik 
+2.Na jego podstawie tworzę alfabet, każdej literze alfabetu przypisuję wartość równą [ilości wystąpienia] / [liczba liter]
+3.Tworzymy drzewo na podstawie alfabetu i do niezależnego roota przypisuję kolejne litery alfabetu 
+4.Modyfikuję drzewo tak aby w efekcie końcowym miało 2^n-1 lisci gdzie n to [liczba liter w alfabecie] w tym celu
+  4a. Znajduę węzeł o największym prawdopodobienstwie
+  4b. Jesli jest miejsce dla n-1 nowych lisci to dołączam do niego wszystkie liscie alfabetu powiększone o dany węzeł
+  4c. Mnoże prawdopodobienstwa wystąpień nowych lisci
+ 

@@ -1,0 +1,5 @@
+Kod Tunstalla - kod przyporządkowujący ciągom symboli kody o jednakowej długości; metoda została opracowana niezależnie przez B. P. Tunstalla (1967)[1], G. L. Khodak (1969), J. Verhoffa (1977).
+
+Dzięki operowaniu na ciągach symboli można uzyskać kompresję danych. W kodowaniu brane jest pod uwagę prawdopodobieństwo bezwarunkowe symboli - słowa kodowe są przypisywane najbardziej prawdopodobnym ciągom.
+
+Ponadto stosowanie słów kodowych jednakowej długości uodparnia komunikat na pewne błędy transmisji - nawet jeśli wartość jakiegoś bitu zostanie zmienione, to błąd ten wpłynie wyłącznie na jedno słowo kodowe (i powiązany z nim podciąg); przy kodowaniu za pomocą słów o zmiennej długości (np. Huffmana, Golomba) przekłamanie bitu wpływa także na pewną ilość kolejnych słów kodowych.
